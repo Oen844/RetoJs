@@ -3,7 +3,14 @@ main{
     justify-content: center;
 }
 
+form{
+    margin-top: 80px;
+    font-size: 35px;
+}
+
 .result {
-    margin-top: 20px;
+    margin-top: 82px;
     text-align: center;
+    font-size: 35px;
+    font-weight: bold;
 }

@@ -2,7 +2,6 @@ const result = document.querySelector(".result");
 
 function validarNum() {
   const num = document.querySelector("input#num").value;
-  console.log(num);
   const resultado = binarySearch(num);
   result.innerHTML = `El numero ${num} es el numero ${resultado}`;
   console.log(resultado);
